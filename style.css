@@ -4,9 +4,18 @@
 }
 
 html {
-    background-color:white;
+    background-image: url(images/webmd2.png);
+    background-color:rgb(241, 237, 237);
+    background-blend-mode:hard-light;
+    background-repeat:repeat;
     font-family: myFont;
 
+}
+
+#webmd {
+    position:fixed;
+    top:0;
+    right:0;
 }
 
 ul {
