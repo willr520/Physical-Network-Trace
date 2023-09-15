@@ -1,0 +1,177 @@
+@font-face{
+    font-family: myFont;
+    src:url(fonts/Director-Regular.ttf);
+}
+
+html {
+    background-color:white;
+    font-family: myFont;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 60px 0;
+}
+
+li {
+    margin-bottom: 50px;
+}
+
+.plumeimg {
+    display:none;
+}
+
+.writing {
+    display:none;
+    position:absolute;
+    font-size: 8px;
+    top:33.5%;
+    left:77%;
+    color:black;
+    border-style:solid;
+
+}
+
+
+.plume:hover {
+    background-color: red;
+}
+
+.plume:hover>div {
+    display:block;
+    float:right;
+}
+
+
+
+/*https://techbrij.com/css-selector-adjacent-child-sibling*/
+
+
+.casinoimg {
+    display:none;
+}
+
+.writing2 {
+    display:none;
+    position:absolute;
+    font-size: 8px;
+    top:0%;
+    left:50%;
+    color:black;
+    border-style:solid;
+
+}
+
+.casino:hover {
+    background-color: blue;
+}
+
+.casino:hover>div {
+    display:block;
+    float:right;
+}
+
+.heatimg {
+    display:none;
+}
+
+.writing3 {
+    display:none;
+    position:absolute;
+    font-size: 8px;
+    top:15%;
+    left:30%;
+    color:black;
+    border-style:solid;
+}
+
+.heat:hover {
+    background-color: yellow;
+}
+
+.heat:hover>div {
+    display:inline;
+    float:right;
+}
+
+.belgiumimg {
+    display:none;
+}
+
+.writing4 {
+    display:none;
+    position:absolute;
+    font-size: 8px;
+    top:10%;
+    left:40%;
+    right: 30%;
+    color:black;
+    border-style:solid;
+}
+
+.belgium:hover {
+    background-color: green;
+}
+
+.belgium:hover>div {
+    display:inline;
+    float:right;
+}
+
+.catimg {
+    display:none;
+    position:absolute;
+    top:50%;
+    right:0%;
+}
+.writing5 {
+    display:none;
+    position:absolute;
+    font-size: 8px;
+    top:30%;
+    left:40%;
+    right: 30%;
+    color:black;
+    border-style:solid;
+}
+
+.cat:hover {
+    background-color: orange;
+}
+
+.cat:hover>div {
+    display:inline;
+    position:absolute;
+    top:30%;
+    
+}
+
+.inspectionimg {
+    display:none;
+    position:absolute;
+    top:50%;
+    right:0%;
+}
+.writing6 {
+    display:none;
+    position:absolute;
+    font-size: 8px;
+    top:0%;
+    left:0%;
+    right: 0%;
+    color:black;
+    border-style:solid;
+}
+
+.inspection:hover {
+    background-color: pink;
+}
+
+.inspection:hover>div {
+    display:inline;
+    positon:absolute;
+    top:30%;
+    
+}
+
